@@ -1,0 +1,120 @@
+#div1{
+    border: 1px solid black;
+    height: 500px;
+    width: 900px;
+    margin-top: 100px;
+    margin-left: 100px;
+    background-color: yellow;
+    border-radius: 50%;
+   
+    /* animation-name: div;
+animation-duration: 5s; */
+ 
+}
+
+
+/* @keyframes div {
+    0%{
+        transform: skewX(0deg);
+    }
+    50%{
+        transform: skewX(2deg);
+    }
+    100%{
+        transform: skewX(0deg);
+    }
+    
+} */
+
+#e1,#e2{
+   position: relative;
+    border: 1px solid black;
+    height: 90px;
+    width: 90px;
+    display: inline-block;
+    border-radius: 14000px;
+    background-color: white;
+
+
+}
+
+#e1{
+    position: absolute;
+    left: 400px;
+    top: 250px;
+}
+#e2{
+    position: absolute;
+    left: 700px;
+    top: 250px;
+}
+
+#lip{
+       border: 1px solid black;
+       height: 100px;
+       width: 300px;
+       border-radius: 70%;
+       position: relative;
+       top: 300px;
+       left: 330px;
+       background-image: url(../img/lip.jpg)  ;
+       background-repeat: no-repeat;
+       background-size: 100% 100%;
+       animation-name: lip;
+       animation-duration: 5s;
+       animation-iteration-count: infinite;
+       
+
+     
+}
+@keyframes lip {
+    0%{
+        width: 300px ;
+    }
+
+    50%{
+        height: 80px;
+        width: 400px;
+    }
+    100%{
+        width: 300px;
+    }
+    
+}
+#b1,#b2{
+    position: relative;
+    border: 1px solid black;
+    height: 40px;
+    width: 20px;
+    border-radius:50% ;
+    background-color: black;
+    animation-name: eyes;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+#b1{
+    top: 19px;
+    left: 10px;
+}
+#b2{
+    top: 19px;
+    left: 10px;
+}
+
+@keyframes eyes {
+    0%{
+        left: 0px;
+        top: 10px;
+    }
+    50%{
+        left:20px;
+        right: 2opx;
+    }
+    100%{
+        left: 0px;
+        top: 10px;
+    }
+
+    
+}
+

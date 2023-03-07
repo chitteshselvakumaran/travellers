@@ -1,0 +1,18 @@
+div{
+    border: 1px solid black;
+    padding: 50px;
+    
+}
+
+p{
+    border: 1px solid black;
+    display: inline-block;
+    width: 15%;
+    padding: 20px;
+    border-width: 10px;
+    border-style: double;
+    border-image: url(../img/3.jpg) 70 stretch ;
+    margin-left: 150px;
+   
+    
+}
